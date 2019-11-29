@@ -8,13 +8,21 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { EntryComponent } from './entry/entry.component';
 import { EditComponent } from './user/edit/edit.component';
+import { TopnavbarComponent } from './topnavbar/topnavbar.component';
+import { AsidenavbarComponent } from './asidenavbar/asidenavbar.component';
+import { FooternavbarComponent } from './footernavbar/footernavbar.component';
+import { SettingnavbarComponent } from './settingnavbar/settingnavbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     EntryComponent,
-    EditComponent
+    EditComponent,
+    TopnavbarComponent,
+    AsidenavbarComponent,
+    FooternavbarComponent,
+    SettingnavbarComponent
   ],
   imports: [
     BrowserModule, FormsModule,
